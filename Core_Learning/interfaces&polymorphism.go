@@ -15,7 +15,7 @@ type secretAgent struct {
 }
 
 type human interface {
-	speak()					// As speak() method is attached to types secretAgent and personnel, both these types are also type human.
+	speak() // As speak() method is attached to types secretAgent and personnel, both these types are also type human.
 }
 
 func main() {
